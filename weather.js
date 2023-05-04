@@ -62,7 +62,7 @@ input.addEventListener("keypress", function(event) {
 
 changer.addEventListener("click", function() {
     if (units === '&units=metric') {
-        units = ''
+        units = '&units=imperial'
         degcon = '°F'
         changer.innerText= 'change to °C'
     } else {
